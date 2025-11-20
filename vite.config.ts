@@ -15,6 +15,6 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 55011,
     },
-    base: env.VITE_SITE_BASE_URL,
+    base: env.VITE_SITE_BASE_URL ?? "/",
   };
 });
