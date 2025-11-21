@@ -32,7 +32,6 @@
 <script setup lang="ts">
 import { GithubIcon, HomeIcon, QrCodeIcon } from "lucide-vue-next";
 import HeaderNavBox from "./HeaderNavBox.vue";
-import LogoBox from "./LogoBox.vue";
 import { GITHUB_HOME_URL, PROJECT_GITHUB_URL, WEB_SITE_URL } from "@/constants";
 import swal from "sweetalert2";
 import { renderSVG } from "uqr";

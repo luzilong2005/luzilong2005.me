@@ -2,7 +2,7 @@
   <div class="flex w-full flex-col space-y-4">
     <AvatarBox />
     <h1 class="text-3xl font-bold">luzilong2005</h1>
-    <p class="text-sm text-neutral-300" id="autotext"></p>
+    <p class="text-sm min-h-12 text-neutral-300" id="autotext"></p>
     <p>一个热爱编程的年轻人，喜欢探索新技术，喜欢挑战自我，喜欢分享知识。</p>
     <p>偶尔有点小BUG。</p>
   </div>

@@ -10,7 +10,8 @@ export const banner: string = `
 
 export const miniBanner = "luzilong2005";
 
-const styles = `
+export const printMiniBanner = (): void => {
+  const styles = `
   color: oklch(69.6% 0.17 162.48);
   font-weight: bold;
   font-size: 3rem;
@@ -21,11 +22,5 @@ const styles = `
     2.8px 4px 0 rgb(255 255 255 / 88%),
     1px 1px 2px rgb(100 100 100 / 70%);
 `;
-
-export const printBanner = (): void => {
-  console.info(banner);
-};
-
-export const printMiniBanner = (): void => {
   console.info(`%c${miniBanner}`, styles);
 };

@@ -2,13 +2,14 @@
   <section class="flex flex-col items-center gap-6">
     <h2 class="text-xl font-bold text-neutral-100">联系我</h2>
 
-    <div class="flex flex-wrap justify-center gap-4">
-      <LinkBox :link="GITHUB_HOME_URL">
-        <GithubIcon :size="20" class="hover:text-neutral-100" />
-      </LinkBox>
-
+    <div class="flex flex-wrap items-center justify-center space-x-4">
       <LinkBox>
-        QQ
+        <img
+          src="https://images.icon-icons.com/2429/PNG/512/qq_logo_icon_147246.png"
+          alt="QQ"
+          loading="lazy"
+          class="size-5"
+        />
         <span
           class="ml-2 cursor-pointer hover:text-cyan-500"
           title="点击复制"
@@ -19,7 +20,12 @@
       </LinkBox>
 
       <LinkBox>
-        微信
+        <img
+          class="size-5"
+          alt="微信"
+          loading="lazy"
+          src="https://images.icon-icons.com/3685/PNG/512/wechat_logo_icon_229288.png"
+        />
         <span
           class="ml-2 cursor-pointer hover:text-emerald-500"
           title="点击复制"
@@ -30,13 +36,17 @@
 
       <LinkBox>
         <MailIcon :size="20" />
-        <p
+        <span
           class="ml-2 cursor-pointer hover:text-orange-500"
           title="点击复制"
           @click="copyClipboard(ME_EMAIL)"
         >
           {{ ME_EMAIL }}
-        </p>
+        </span>
+      </LinkBox>
+
+      <LinkBox :link="GITHUB_HOME_URL">
+        <GithubIcon :size="20" />
       </LinkBox>
     </div>
   </section>
