@@ -1,7 +1,7 @@
 <template>
   <component
     :is="componentType"
-    :class="['inline-flex h-8 items-center justify-center px-4']"
+    :class="['inline-flex h-8 items-center justify-center px-2']"
     :href="props.link"
     :to="props.route"
     :target="props.link && '_blank'"

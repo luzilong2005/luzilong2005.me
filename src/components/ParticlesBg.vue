@@ -17,6 +17,9 @@ const options = reactive({
   background: {
     opacity: 0,
   },
+  autoPlay: true,
+  clear: true,
+  fpsLimit: 24,
   particles: {
     fullScreen: {
       enable: true,
@@ -27,6 +30,10 @@ const options = reactive({
     },
     number: {
       value: 200,
+      limit: {
+        mode: "delete",
+        value: 500,
+      },
     },
     color: {
       value: "#ffffff",
@@ -39,7 +46,7 @@ const options = reactive({
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 0.45,
       direction: "none",
       outModes: "out",
     },
