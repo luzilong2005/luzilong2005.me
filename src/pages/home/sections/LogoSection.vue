@@ -1,7 +1,7 @@
 <template>
   <div class="my-8 flex items-center">
     <pre
-      class="logo-animation mx-auto font-mono text-[0.4rem] text-neutral-300
+      class="logo-animation mx-auto font-mono text-[0.25rem] text-neutral-300
         select-none md:text-xs lg:text-sm"
       :class="{
         'paused blur-lg': scrollY > 80,

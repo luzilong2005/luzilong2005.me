@@ -2,7 +2,7 @@
   <section class="flex flex-col items-center gap-6">
     <h2 class="text-xl font-bold text-neutral-100">联系我</h2>
 
-    <div class="flex flex-wrap items-center justify-center space-x-4">
+    <div class="flex flex-wrap items-center justify-center gap-4">
       <LinkBox>
         <img
           src="https://images.icon-icons.com/2429/PNG/512/qq_logo_icon_147246.png"
